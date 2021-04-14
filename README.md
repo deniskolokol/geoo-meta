@@ -1,2 +1,3 @@
-# geoo-meta
-Geoo metadata
+# Geoo metadata
+
+Model definitions of databases and indexes used across Project's services.
