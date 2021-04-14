@@ -10,8 +10,7 @@ setup(
     license='MIT',
     packages=['geoometa'],
     install_requires=[
-        'elasticsearch-dsl',
-        'mongoengine'
+        'elasticsearch-dsl'
     ],
     zip_safe=False
 )
