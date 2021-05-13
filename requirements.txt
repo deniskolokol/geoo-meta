@@ -1,0 +1,7 @@
+urllib3==1.26.4
+six==1.15.0
+certifi==2020.12.5
+python-dateutil==2.8.1
+elasticsearch==7.12.0
+elasticsearch-dsl==7.3.0
+-e git+https://github.com/deniskolokol/genery.git#egg=genery
