@@ -216,9 +216,9 @@ class Place(Document):
                     # If target language cannot be found here,
                     # fieldname is created from the first two
                     # symbols ("kor" -> "ko").
-                    if lang in LANG_MAP:
+                    try:
                         lang = LANG_MAP[lang]
-                    else:
+                    except KeyError:
                         lang = lang[:2]
 
                 # NB: val is a list.
