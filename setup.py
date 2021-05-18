@@ -15,7 +15,8 @@ setup(
         'certifi==2020.12.5',
         'python-dateutil==2.8.1',
         'elasticsearch==7.12.0',
-        'elasticsearch-dsl==7.3.0'
+        'elasticsearch-dsl==7.3.0',
+        'pycountry==20.7.3'
     ],
     zip_safe=False
 )
