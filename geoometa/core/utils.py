@@ -7,7 +7,7 @@ from urllib.request import urlopen
 
 import pycountry
 
-from core.exceptions import UnsupportedValueError
+from geoometa.core.exceptions import UnsupportedValueError
 
 
 TIMEOUT = 30

@@ -15,10 +15,10 @@ import logging
 from genery.utils import RecordDict, URLNormalizer, \
      ensure_list, runcmd, as_file
 
-from conf import settings
-from core.exceptions import MissingDataError, UnsupportedValueError
-from core.utils import read_github, format_error
-from schema import elastic
+from geoometa.conf import settings
+from geoometa.core.exceptions import MissingDataError, UnsupportedValueError
+from geoometa.core.utils import read_github, format_error
+from geoometa.schema import elastic
 
 
 LOG = logging.getLogger(settings.LOGGER)

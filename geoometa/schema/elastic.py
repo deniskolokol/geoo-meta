@@ -19,10 +19,10 @@ from elasticsearch_dsl import connections, Document, InnerDoc, Nested, \
 from genery.utils import flatten_list, distinct_elements
 from genery.decorators import objectify
 
-from conf import settings
-from core.exceptions import MissingDataError
-from core.utils import country_name
-from schema.references import LANG_MAP, LANG_FIELDS
+from geoometa.conf import settings
+from geoometa.core.exceptions import MissingDataError
+from geoometa.core.utils import country_name
+from geoometa.schema.references import LANG_MAP, LANG_FIELDS
 
 
 ALIAS = 'default'
